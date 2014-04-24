@@ -1,4 +1,4 @@
 #!/bin/bash
 unset GEM_HOME
 unset GEM_PATH
-exec /opt/chef/bin/${0/*\//} $*
+exec /opt/chef/bin/${0/*\//} "$@"
